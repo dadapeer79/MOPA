@@ -1,0 +1,95 @@
+:root[data-theme="dark"] .glow-card {
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+}
+
+:root[data-theme="dark"] .glow-card:hover {
+  box-shadow: 
+    0 0 20px rgba(0, 255, 255, 0.2),
+    0 0 40px rgba(0, 255, 255, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+}
+
+:root[data-theme="light"] .glow-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="light"] .glow-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+.data-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  perspective: 1000px;
+}
+
+.data-grid > * {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-out;
+}
+
+.data-grid > *:hover {
+  transform: translateZ(20px);
+}
+
+.glassmorphic {
+  background: linear-gradient(
+    135deg,
+    var(--card-bg-1, rgba(255, 255, 255, 0.1)),
+    var(--card-bg-2, rgba(255, 255, 255, 0.05))
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--card-border, rgba(255, 255, 255, 0.1));
+}
+
+:root[data-theme="dark"] {
+  --card-bg-1: rgba(255, 255, 255, 0.1);
+  --card-bg-2: rgba(255, 255, 255, 0.05);
+  --card-border: rgba(255, 255, 255, 0.1);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --bg-gradient-from: #000000;
+  --bg-gradient-to: #172554;
+}
+
+:root[data-theme="light"] {
+  --card-bg-1: #ffffff;
+  --card-bg-2: #ffffff;
+  --card-border: #e2e8f0;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --bg-gradient-from: #ffffff;
+  --bg-gradient-to: #ffffff;
+  --chart-bg: #ffffff;
+}
+
+:root[data-theme="dark"] .neon-text {
+  color: #fff;
+  text-shadow: 
+    0 0 5px rgba(0, 255, 255, 0.5),
+    0 0 10px rgba(0, 255, 255, 0.3),
+    0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+:root[data-theme="light"] .neon-text {
+  color: #0284c7;
+  text-shadow: none;
+}
+
+.chart-container {
+  position: relative;
+  z-index: 10;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background: var(--card-bg-1);
+  padding: 1rem;
+}

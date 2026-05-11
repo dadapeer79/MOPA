@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "user-avatar",
+      "description": "User avatar for the sidebar",
+      "imageUrl": "https://ui-avatars.com/api/?background=0D8ABC&color=fff&size=128&name=User",
+      "imageHint": "default user avatar"
+    },
+    {
+      "id": "theme-slate",
+      "description": "Theme image for slate color",
+      "imageUrl": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXJrJTIwdGV4dHVyZXxlbnwwfHx8fDE3NTkzNTQwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark texture"
+    },
+    {
+      "id": "theme-stone",
+      "description": "Theme image for stone color",
+      "imageUrl": "https://images.unsplash.com/photo-1580687104139-9d51ce55e346?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdG9uZSUyMHRleHR1cmV8ZW58MHx8fHwxNzU5MjgwMzI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stone texture"
+    },
+    {
+      "id": "theme-gray",
+      "description": "Theme image for gray color",
+      "imageUrl": "https://images.unsplash.com/photo-1454117096348-e4abbeba002c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmF5JTIwcGF0dGVybnxlbnwwfHx8fDE3NTkzNTQwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gray pattern"
+    },
+    {
+      "id": "theme-zinc",
+      "description": "Theme image for zinc color",
+      "imageUrl": "https://images.unsplash.com/photo-1696247140268-ef8e1dbc04cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWV0YWwlMjB0ZXh0dXJlfGVufDB8fHx8MTc1OTI4MDMyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "metal texture"
+    },
+    {
+      "id": "theme-neutral",
+      "description": "Theme image for neutral color",
+      "imageUrl": "https://images.unsplash.com/photo-1686806374006-9ae5dfd3d2d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bmV1dHJhbCUyMGZhYnJpY3xlbnwwfHx8fDE3NTkzNTQwNTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "neutral fabric"
+    },
+    {
+      "id": "theme-red",
+      "description": "Theme image for red color",
+      "imageUrl": "https://images.unsplash.com/photo-1614852207233-e8d771f8e9fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZWQlMjBhYnN0cmFjdHxlbnwwfHx8fDE3NTkzMDQ1NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "red abstract"
+    },
+    {
+      "id": "theme-rose",
+      "description": "Theme image for rose color",
+      "imageUrl": "https://images.unsplash.com/photo-1567393720706-3ba9e7cc7062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyb3NlJTIwcGV0YWxzfGVufDB8fHx8MTc1OTI1NTc2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "rose petals"
+    },
+    {
+      "id": "theme-orange",
+      "description": "Theme image for orange color",
+      "imageUrl": "https://images.unsplash.com/photo-1629801892267-13faaeb22312?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvcmFuZ2UlMjB6ZXN0fGVufDB8fHx8MTc1OTM1NDA1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "orange zest"
+    },
+    {
+      "id": "theme-green",
+      "description": "Theme image for green color",
+      "imageUrl": "https://images.unsplash.com/photo-1533563906091-fdfdffc3e3c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmb3Jlc3QlMjBsZWF2ZXN8ZW58MHx8fHwxNzU5MzU0MDUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "forest leaves"
+    },
+    {
+      "id": "theme-blue",
+      "description": "Theme image for blue color",
+      "imageUrl": "https://images.unsplash.com/photo-1559962219-f52ccd86944e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxvY2VhbiUyMHdhdmV8ZW58MHx8fHwxNzU5Mjc1NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ocean wave"
+    },
+    {
+      "id": "theme-yellow",
+      "description": "Theme image for yellow color",
+      "imageUrl": "https://images.unsplash.com/photo-1595756035507-995aad5d5de3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzdW5mbG93ZXIlMjBmaWVsZHxlbnwwfHx8fDE3NTkyODI1NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sunflower field"
+    },
+    {
+      "id": "theme-violet",
+      "description": "Theme image for violet color",
+      "imageUrl": "https://images.unsplash.com/photo-1445510491599-c391e8046a68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsYXZlbmRlciUyMGZpZWxkfGVufDB8fHx8MTc1OTMyNzk3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lavender field"
+    }
+  ]
+}
